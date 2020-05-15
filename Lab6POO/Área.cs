@@ -3,8 +3,11 @@ namespace Lab6POO
 {
     public class Área : Division
     {
-        public Área()
+        private string name;
+        public Área(string Name)
         {
+            this.name = Name;
         }
+        public string Name { get => name; set => name = value; }
     }
 }

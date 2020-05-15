@@ -9,7 +9,7 @@ namespace Lab6POO
     [Serializable]
     public class Empresa
     {
-
+        List<Division> divisions = new List<Division> { };
         private string name;
         private string rut;
         public Empresa(string Name, string Rut)

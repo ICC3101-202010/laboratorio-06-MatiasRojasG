@@ -38,6 +38,7 @@
     <Compile Include="Departamento.cs" />
     <Compile Include="Sección.cs" />
     <Compile Include="Bloque.cs" />
+    <Compile Include="Persona.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
